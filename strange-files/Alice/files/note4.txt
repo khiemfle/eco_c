@@ -1,0 +1,25 @@
+Interesting one!
+- https://ctftime.org/writeup/6509
+
+https://nandynarwhals.org/asisfinals2015-bodu/
+- Recover private key!!
+
+openssl rsa -noout -text -in "file3-dir/Aaron Blankenship.pem" -pubin -modulus | grep Modulus
+
+openssl rsa -noout -text -in rsa.public -pubin -modulus
+
+openssl genrsa -out rsa.private 2048
+
+openssl rsa -in rsa.private -out rsa.public -pubout -outform PEM
+
+// https://github.com/Ganapati/RsaCtfTool
+python3 RsaCtfTool.py --publickey "../file3-dir/Aaron Blankenship.pem" --uncipherfile ../file1
+
+python3 RsaCtfTool.py --publickey "../file3-dir/Aaron Blankenship.pem" --private
+
+openssl dgst -ecdsa-with-SHA256 -verify public.pem -signature signature.bin test.pdf
+
+// https://superuser.com/questions/737574/openssl-ecdsa-sign-and-verify-file
+openssl dgst -sha256 -verify "file3-dir/Aaron Blankenship.pem" -signature file1
+
+openssl rsautl -verify -inkey "file3-dir/Aaron Blankenship.pem" -in file1 -pubin

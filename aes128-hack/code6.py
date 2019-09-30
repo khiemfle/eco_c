@@ -1,0 +1,35 @@
+from Crypto import Random 
+from Crypto.Cipher import AES 
+# iv = "\x8C\xAE\x65\x24\xA8\x63\xE3\x0F\x9B\x9D\x8D\xA2\xED\x05\xAA\x48" 
+iv = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+ciphertext = "\x16\xD0\x7A\x30\x8E\x24\xED\xF8\xE7\x71\x57\x03\xC5\x74\xB6\xE3\x26\x40\x56\xE7\xE9\x56\xCF\x76\x61\xBD\x72\xE3\xC7\xFC\x6C\x15\x27\x3D\x2A\xED\xA6\xB6\xEA\x04\xF1\xCC\xFE\xF6\x77\xB4\x41\x66"
+
+hex_text = "6fe1ad578ca4fcd3fcb68e241d0dab57cded9922190ed6e91af19c564541d93d119d35580e5aa28841f00c8b5825cbcb65120da301e6826703941e12dcd68c11"
+
+ciphertext = ""
+for i, j in zip(hex_text[::2], hex_text[1::2]):
+  val = i+j
+  ciphertext = ciphertext + val.decode('hex')
+
+# ciphertext = "\x6F\xE1\xAD\x57\x8C\xA4\xFC\xD3\xFC\xB6\x8E\x24\x1D\x0D\xAB\x57\xCD\xED\x99\x22\x19\x0E\xD6\xE9\x1A\xF1\x9C\x56\x45\x41\xD9\x3D\x11\x9D\x35\x58\x0E\x5A\xA2\x88\x41\xF0\x0C\x8B\x58\x25\xCB\xCB\x65\x12\x0D\xA3\x01\xE6\x82\x67\x03\x94\x1E\x12\xDC\xD6\x8C\x11"
+
+def decrypt(key): 
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    result = cipher.decrypt(ciphertext)
+    return result
+
+# def brute2():
+
+
+def brute1():
+    for i in range(256):
+        for j in range(256):
+            key = "".join([chr(j), chr(i)]).ljust(16, "\x00")
+            # print key
+            result = decrypt(key)
+            if "ttm4536{" in result:
+                print(result)
+                print("key :", key.encode("hex"))
+                return
+
+brute1()

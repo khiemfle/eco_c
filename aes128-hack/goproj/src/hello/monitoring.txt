@@ -1,0 +1,1 @@
+watch -n 120 'ls -la | grep DONE.txt' & watch -n 120 'ls -la brute/ | grep DONE.txt' & watch -n 120 'ls -la force/ | grep DONE.txt'

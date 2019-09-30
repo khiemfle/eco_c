@@ -1,0 +1,230 @@
+Sep 15 16:02:28 localhost syslog.info syslogd started: BusyBox v1.30.1
+Sep 15 16:02:28 localhost daemon.info init: starting pid 1904, tty '': '/sbin/openrc default'
+Sep 15 16:02:28 localhost daemon.info chronyd[1953]: chronyd version 3.5 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP -SCFILTER +SIGND +ASYNCDNS -SECHASH +IPV6 -DEBUG)
+Sep 15 16:02:28 localhost daemon.warn chronyd[1953]: Could not read valid frequency and skew from driftfile /var/lib/chrony/chrony.drift
+Sep 15 16:02:32 localhost daemon.info chronyd[1953]: System's initial offset : 2.574018 seconds slow of true (slew)
+Sep 15 16:02:34 localhost cron.info crond[1978]: crond (busybox 1.30.1) started, log level 8
+Sep 15 16:02:34 localhost auth.info sshd[2008]: Server listening on 0.0.0.0 port 22.
+Sep 15 16:02:34 localhost auth.info sshd[2008]: Server listening on :: port 22.
+Sep 15 16:02:34 localhost daemon.info init: starting pid 2014, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Sep 15 16:02:34 localhost daemon.info init: starting pid 2015, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Sep 15 16:02:34 localhost daemon.info init: starting pid 2019, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Sep 15 16:02:34 localhost daemon.info init: starting pid 2022, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Sep 15 16:02:34 localhost daemon.info init: starting pid 2026, tty '/dev/tty5': '/sbin/getty 38400 tty5'
+Sep 15 16:02:34 localhost daemon.info init: starting pid 2031, tty '/dev/tty6': '/sbin/getty 38400 tty6'
+Sep 15 16:02:34 localhost daemon.info init: starting pid 2035, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:02:34 localhost auth.err getty[2035]: tcgetattr: I/O error^M
+Sep 15 16:02:40 localhost daemon.info chronyd[1953]: Selected source 185.41.243.30
+Sep 15 16:02:41 localhost daemon.info chronyd[1953]: Selected source 185.175.56.155
+Sep 15 16:02:41 localhost daemon.info chronyd[1953]: Source 185.175.56.155 replaced with 193.150.22.36
+Sep 15 16:02:41 localhost daemon.info chronyd[1953]: Selected source 139.112.153.36
+Sep 15 16:02:44 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2035) exited. Scheduling for restart.
+Sep 15 16:02:44 localhost daemon.info init: starting pid 2037, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:02:44 localhost auth.err getty[2037]: tcgetattr: I/O error^M
+Sep 15 16:02:54 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2037) exited. Scheduling for restart.
+Sep 15 16:02:54 localhost daemon.info init: starting pid 2038, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:02:54 localhost auth.err getty[2038]: tcgetattr: I/O error^M
+Sep 15 16:03:04 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2038) exited. Scheduling for restart.
+Sep 15 16:03:04 localhost daemon.info init: starting pid 2039, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:03:04 localhost auth.err getty[2039]: tcgetattr: I/O error^M
+Sep 15 16:03:14 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2039) exited. Scheduling for restart.
+Sep 15 16:03:14 localhost daemon.info init: starting pid 2040, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:03:14 localhost auth.err getty[2040]: tcgetattr: I/O error^M
+Sep 15 16:03:24 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2040) exited. Scheduling for restart.
+Sep 15 16:03:24 localhost daemon.info init: starting pid 2041, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:03:24 localhost auth.err getty[2041]: tcgetattr: I/O error^M
+Sep 15 16:03:34 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2041) exited. Scheduling for restart.
+Sep 15 16:03:34 localhost daemon.info init: starting pid 2042, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:03:34 localhost auth.err getty[2042]: tcgetattr: I/O error^M
+Sep 15 16:03:44 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2042) exited. Scheduling for restart.
+Sep 15 16:03:44 localhost daemon.info init: starting pid 2043, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:03:44 localhost auth.err getty[2043]: tcgetattr: I/O error^M
+Sep 15 16:03:46 localhost daemon.info chronyd[1953]: Can't synchronise: no selectable sources
+Sep 15 16:03:46 localhost daemon.info chronyd[1953]: Selected source 185.42.170.200
+Sep 15 16:03:54 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2043) exited. Scheduling for restart.
+Sep 15 16:03:54 localhost daemon.info init: starting pid 2044, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:03:54 localhost auth.err getty[2044]: tcgetattr: I/O error^M
+Sep 15 16:04:04 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2044) exited. Scheduling for restart.
+Sep 15 16:04:04 localhost daemon.info init: starting pid 2045, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:04:04 localhost auth.err getty[2045]: tcgetattr: I/O error^M
+Sep 15 16:04:07 localhost daemon.info init: process '/sbin/getty 38400 tty1' (pid 2014) exited. Scheduling for restart.
+Sep 15 16:04:07 localhost daemon.info init: starting pid 2046, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Sep 15 16:04:14 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2045) exited. Scheduling for restart.
+Sep 15 16:04:14 localhost daemon.info init: starting pid 2047, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:04:14 localhost auth.err getty[2047]: tcgetattr: I/O error^M
+Sep 15 16:04:24 localhost auth.info login[2048]: root login on 'tty1'
+Sep 15 16:04:24 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2047) exited. Scheduling for restart.
+Sep 15 16:04:24 localhost daemon.info init: starting pid 2049, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:04:24 localhost auth.err getty[2049]: tcgetattr: I/O error^M
+Sep 15 16:04:34 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2049) exited. Scheduling for restart.
+Sep 15 16:04:34 localhost daemon.info init: starting pid 2050, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:04:34 localhost auth.err getty[2050]: tcgetattr: I/O error^M
+Sep 15 16:04:44 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2050) exited. Scheduling for restart.
+Sep 15 16:04:44 localhost daemon.info init: starting pid 2052, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:04:44 localhost auth.err getty[2052]: tcgetattr: I/O error^M
+Sep 15 16:04:54 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2052) exited. Scheduling for restart.
+Sep 15 16:04:54 localhost daemon.info init: starting pid 2055, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:04:54 localhost auth.err getty[2055]: tcgetattr: I/O error^M
+Sep 15 16:05:04 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2055) exited. Scheduling for restart.
+Sep 15 16:05:04 localhost daemon.info init: starting pid 2056, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:05:04 localhost auth.err getty[2056]: tcgetattr: I/O error^M
+Sep 15 16:05:09 localhost auth.err passwd: password for ttm4536 changed by root
+Sep 15 16:05:14 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2056) exited. Scheduling for restart.
+Sep 15 16:05:14 localhost daemon.info init: starting pid 2057, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:05:14 localhost auth.err getty[2057]: tcgetattr: I/O error^M
+Sep 15 16:05:24 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2057) exited. Scheduling for restart.
+Sep 15 16:05:24 localhost daemon.info init: starting pid 2058, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:05:24 localhost auth.err getty[2058]: tcgetattr: I/O error^M
+Sep 15 16:05:32 localhost daemon.info init: starting pid 2060, tty '': '/sbin/openrc shutdown'
+Sep 15 16:05:32 localhost user.debug : Will stop /usr/sbin/sshd
+Sep 15 16:05:32 localhost user.debug : Will stop PID 2008
+Sep 15 16:05:32 localhost user.debug : Sending signal 15 to PID 2008
+Sep 15 16:05:32 localhost auth.info sshd[2008]: Received signal 15; terminating.
+Sep 15 16:05:32 localhost daemon.err /etc/init.d/sshd[2084]: sshd: caught SIGTERM, aborting
+Sep 15 16:05:32 localhost user.debug : Will stop /usr/sbin/crond
+Sep 15 16:05:32 localhost user.debug : Will stop PID 1978
+Sep 15 16:05:32 localhost user.debug : Sending signal 15 to PID 1978
+Sep 15 16:05:32 localhost user.debug : Will stop /sbin/syslogd
+Sep 15 16:05:32 localhost user.debug : Will stop PID 1873
+Sep 15 16:05:32 localhost user.debug : Sending signal 15 to PID 1873
+Sep 15 16:05:32 localhost syslog.info syslogd exiting
+Sep 15 16:05:45 localhost syslog.info syslogd started: BusyBox v1.30.1
+Sep 15 16:05:45 localhost daemon.info init: starting pid 1907, tty '': '/sbin/openrc default'
+Sep 15 16:05:45 localhost daemon.info chronyd[1956]: chronyd version 3.5 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP -SCFILTER +SIGND +ASYNCDNS -SECHASH +IPV6 -DEBUG)
+Sep 15 16:05:45 localhost daemon.info chronyd[1956]: Frequency -8.105 +/- 80.956 ppm read from /var/lib/chrony/chrony.drift
+Sep 15 16:05:50 localhost daemon.info chronyd[1956]: System's initial offset : 0.306719 seconds slow of true (slew)
+Sep 15 16:05:52 localhost cron.info crond[1981]: crond (busybox 1.30.1) started, log level 8
+Sep 15 16:05:52 localhost auth.info sshd[2012]: Server listening on 0.0.0.0 port 22.
+Sep 15 16:05:52 localhost auth.info sshd[2012]: Server listening on :: port 22.
+Sep 15 16:05:52 localhost daemon.info init: starting pid 2017, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Sep 15 16:05:52 localhost daemon.info init: starting pid 2018, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Sep 15 16:05:52 localhost daemon.info init: starting pid 2022, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Sep 15 16:05:52 localhost daemon.info init: starting pid 2025, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Sep 15 16:05:52 localhost daemon.info init: starting pid 2029, tty '/dev/tty5': '/sbin/getty 38400 tty5'
+Sep 15 16:05:52 localhost daemon.info init: starting pid 2034, tty '/dev/tty6': '/sbin/getty 38400 tty6'
+Sep 15 16:05:52 localhost daemon.info init: starting pid 2038, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:05:52 localhost auth.err getty[2038]: tcgetattr: I/O error^M
+Sep 15 16:05:57 localhost daemon.info chronyd[1956]: Selected source 80.89.32.121
+Sep 15 16:05:58 localhost daemon.info chronyd[1956]: Selected source 192.36.143.130
+Sep 15 16:06:02 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2038) exited. Scheduling for restart.
+Sep 15 16:06:02 localhost daemon.info init: starting pid 2039, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:06:02 localhost auth.err getty[2039]: tcgetattr: I/O error^M
+Sep 15 16:06:12 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2039) exited. Scheduling for restart.
+Sep 15 16:06:12 localhost daemon.info init: starting pid 2041, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:06:12 localhost auth.err getty[2041]: tcgetattr: I/O error^M
+Sep 15 16:06:22 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2041) exited. Scheduling for restart.
+Sep 15 16:06:22 localhost daemon.info init: starting pid 2042, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:06:22 localhost auth.err getty[2042]: tcgetattr: I/O error^M
+Sep 15 16:06:32 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2042) exited. Scheduling for restart.
+Sep 15 16:06:32 localhost daemon.info init: starting pid 2043, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:06:32 localhost auth.err getty[2043]: tcgetattr: I/O error^M
+Sep 15 16:06:42 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2043) exited. Scheduling for restart.
+Sep 15 16:06:42 localhost daemon.info init: starting pid 2044, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:06:42 localhost auth.err getty[2044]: tcgetattr: I/O error^M
+Sep 15 16:06:52 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2044) exited. Scheduling for restart.
+Sep 15 16:06:52 localhost daemon.info init: starting pid 2045, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:06:52 localhost auth.err getty[2045]: tcgetattr: I/O error^M
+Sep 15 16:07:02 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2045) exited. Scheduling for restart.
+Sep 15 16:07:02 localhost daemon.info init: starting pid 2046, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:07:02 localhost auth.err getty[2046]: tcgetattr: I/O error^M
+Sep 15 16:07:12 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2046) exited. Scheduling for restart.
+Sep 15 16:07:12 localhost daemon.info init: starting pid 2049, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:07:12 localhost auth.err getty[2049]: tcgetattr: I/O error^M
+Sep 15 16:07:22 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2049) exited. Scheduling for restart.
+Sep 15 16:07:22 localhost daemon.info init: starting pid 2050, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:07:22 localhost auth.err getty[2050]: tcgetattr: I/O error^M
+Sep 15 16:07:32 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2050) exited. Scheduling for restart.
+Sep 15 16:07:32 localhost daemon.info init: starting pid 2052, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:07:32 localhost auth.err getty[2052]: tcgetattr: I/O error^M
+Sep 15 16:07:42 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2052) exited. Scheduling for restart.
+Sep 15 16:07:42 localhost daemon.info init: starting pid 2054, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:07:42 localhost auth.err getty[2054]: tcgetattr: I/O error^M
+Sep 15 16:07:52 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2054) exited. Scheduling for restart.
+Sep 15 16:07:52 localhost daemon.info init: starting pid 2055, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:07:52 localhost auth.err getty[2055]: tcgetattr: I/O error^M
+Sep 15 16:08:02 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2055) exited. Scheduling for restart.
+Sep 15 16:08:02 localhost daemon.info init: starting pid 2057, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:08:02 localhost auth.err getty[2057]: tcgetattr: I/O error^M
+Sep 15 16:08:12 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2057) exited. Scheduling for restart.
+Sep 15 16:08:12 localhost daemon.info init: starting pid 2058, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:08:12 localhost auth.err getty[2058]: tcgetattr: I/O error^M
+Sep 15 16:08:22 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2058) exited. Scheduling for restart.
+Sep 15 16:08:22 localhost daemon.info init: starting pid 2059, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:08:22 localhost auth.err getty[2059]: tcgetattr: I/O error^M
+Sep 15 16:08:32 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2059) exited. Scheduling for restart.
+Sep 15 16:08:32 localhost daemon.info init: starting pid 2060, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:08:32 localhost auth.err getty[2060]: tcgetattr: I/O error^M
+Sep 15 16:08:42 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2060) exited. Scheduling for restart.
+Sep 15 16:08:42 localhost daemon.info init: starting pid 2061, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:08:42 localhost auth.err getty[2061]: tcgetattr: I/O error^M
+Sep 15 16:08:52 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2061) exited. Scheduling for restart.
+Sep 15 16:08:52 localhost daemon.info init: starting pid 2062, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:08:52 localhost auth.err getty[2062]: tcgetattr: I/O error^M
+Sep 15 16:09:02 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2062) exited. Scheduling for restart.
+Sep 15 16:09:02 localhost daemon.info init: starting pid 2063, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:09:02 localhost auth.err getty[2063]: tcgetattr: I/O error^M
+Sep 15 16:09:12 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2063) exited. Scheduling for restart.
+Sep 15 16:09:12 localhost daemon.info init: starting pid 2064, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:09:12 localhost auth.err getty[2064]: tcgetattr: I/O error^M
+Sep 15 16:09:22 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2064) exited. Scheduling for restart.
+Sep 15 16:09:22 localhost daemon.info init: starting pid 2065, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:09:22 localhost auth.err getty[2065]: tcgetattr: I/O error^M
+Sep 15 16:09:32 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2065) exited. Scheduling for restart.
+Sep 15 16:09:32 localhost daemon.info init: starting pid 2066, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:09:32 localhost auth.err getty[2066]: tcgetattr: I/O error^M
+Sep 15 16:09:42 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2066) exited. Scheduling for restart.
+Sep 15 16:09:42 localhost daemon.info init: starting pid 2067, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:09:42 localhost auth.err getty[2067]: tcgetattr: I/O error^M
+Sep 15 16:09:52 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2067) exited. Scheduling for restart.
+Sep 15 16:09:52 localhost daemon.info init: starting pid 2069, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:09:52 localhost auth.err getty[2069]: tcgetattr: I/O error^M
+Sep 15 16:09:53 localhost auth.notice su: + tty1 ttm4536:root
+Sep 15 16:10:02 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2069) exited. Scheduling for restart.
+Sep 15 16:10:02 localhost daemon.info init: starting pid 2071, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:10:02 localhost auth.err getty[2071]: tcgetattr: I/O error^M
+Sep 15 16:10:12 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2071) exited. Scheduling for restart.
+Sep 15 16:10:12 localhost daemon.info init: starting pid 2073, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:10:12 localhost auth.err getty[2073]: tcgetattr: I/O error^M
+Sep 15 16:10:22 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2073) exited. Scheduling for restart.
+Sep 15 16:10:22 localhost daemon.info init: starting pid 2075, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:10:22 localhost auth.err getty[2075]: tcgetattr: I/O error^M
+Sep 15 16:10:32 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2075) exited. Scheduling for restart.
+Sep 15 16:10:32 localhost daemon.info init: starting pid 2076, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:10:32 localhost auth.err getty[2076]: tcgetattr: I/O error^M
+Sep 15 16:10:42 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2076) exited. Scheduling for restart.
+Sep 15 16:10:42 localhost daemon.info init: starting pid 2078, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:10:42 localhost auth.err getty[2078]: tcgetattr: I/O error^M
+Sep 15 16:10:52 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2078) exited. Scheduling for restart.
+Sep 15 16:10:52 localhost daemon.info init: starting pid 2080, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:10:52 localhost auth.err getty[2080]: tcgetattr: I/O error^M
+Sep 15 16:11:02 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2080) exited. Scheduling for restart.
+Sep 15 16:11:02 localhost daemon.info init: starting pid 2082, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:11:02 localhost auth.err getty[2082]: tcgetattr: I/O error^M
+Sep 15 16:11:12 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2082) exited. Scheduling for restart.
+Sep 15 16:11:12 localhost daemon.info init: starting pid 2084, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:11:12 localhost auth.err getty[2084]: tcgetattr: I/O error^M
+Sep 15 16:11:22 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2084) exited. Scheduling for restart.
+Sep 15 16:11:22 localhost daemon.info init: starting pid 2087, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:11:22 localhost auth.err getty[2087]: tcgetattr: I/O error^M
+Sep 15 16:11:32 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2087) exited. Scheduling for restart.
+Sep 15 16:11:32 localhost daemon.info init: starting pid 2088, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:11:32 localhost auth.err getty[2088]: tcgetattr: I/O error^M
+Sep 15 16:11:42 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2088) exited. Scheduling for restart.
+Sep 15 16:11:42 localhost daemon.info init: starting pid 2090, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:11:42 localhost auth.err getty[2090]: tcgetattr: I/O error^M
+Sep 15 16:11:52 localhost daemon.info init: process '/sbin/getty -L 0 ttyS0 vt100' (pid 2090) exited. Scheduling for restart.
+Sep 15 16:11:52 localhost daemon.info init: starting pid 2092, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Sep 15 16:11:52 localhost auth.err getty[2092]: tcgetattr: I/O error^M
+Sep 15 16:11:58 localhost daemon.info init: starting pid 2094, tty '': '/sbin/openrc shutdown'
+Sep 15 16:11:58 localhost user.debug : Will stop /usr/sbin/sshd
+Sep 15 16:11:58 localhost user.debug : Will stop PID 2012
+Sep 15 16:11:58 localhost user.debug : Sending signal 15 to PID 2012
+Sep 15 16:11:58 localhost auth.info sshd[2012]: Received signal 15; terminating.
+Sep 15 16:11:58 localhost daemon.err /etc/init.d/sshd[2118]: sshd: caught SIGTERM, aborting
+Sep 15 16:11:58 localhost user.debug : Will stop /usr/sbin/crond
+Sep 15 16:11:58 localhost user.debug : Will stop PID 1981
+Sep 15 16:11:58 localhost user.debug : Sending signal 15 to PID 1981
+Sep 15 16:11:58 localhost user.debug : Will stop /sbin/syslogd
+Sep 15 16:11:58 localhost user.debug : Will stop PID 1873
+Sep 15 16:11:58 localhost user.debug : Sending signal 15 to PID 1873
+Sep 15 16:11:58 localhost syslog.info syslogd exiting

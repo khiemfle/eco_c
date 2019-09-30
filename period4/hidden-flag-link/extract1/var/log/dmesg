@@ -1,0 +1,211 @@
+[    0.053310] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+[    0.053953] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+[    0.054469] pci 0000:00:02.0: reg 0x14: [mem 0xf0000000-0xf0ffffff]
+[    0.054865] pci 0000:00:02.0: reg 0x18: [mem 0xf1000000-0xf11fffff]
+[    0.056630] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+[    0.057026] pci 0000:00:03.0: reg 0x10: [mem 0xf1200000-0xf121ffff]
+[    0.057530] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+[    0.059063] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+[    0.059392] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+[    0.059645] pci 0000:00:04.0: reg 0x14: [mem 0xf1400000-0xf17fffff]
+[    0.059897] pci 0000:00:04.0: reg 0x18: [mem 0xf1800000-0xf1803fff pref]
+[    0.061116] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+[    0.061296] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+[    0.061399] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+[    0.062155] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+[    0.062489] pci 0000:00:06.0: reg 0x10: [mem 0xf1804000-0xf1804fff]
+[    0.064691] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+[    0.065184] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+[    0.065196] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+[    0.065523] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+[    0.065959] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+[    0.066375] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+[    0.066843] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+[    0.067441] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+[    0.067808] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+[    0.068119] pci 0000:00:0d.0: reg 0x24: [mem 0xf1806000-0xf1807fff]
+[    0.069015] pci_bus 0000:00: on NUMA node 0
+[    0.070287] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+[    0.070413] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+[    0.070482] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+[    0.070549] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+[    0.070702] SCSI subsystem initialized
+[    0.071335] libata version 3.00 loaded.
+[    0.071359] pps_core: LinuxPPS API ver. 1 registered
+[    0.071359] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.071360] PTP clock support registered
+[    0.071468] PCI: Using ACPI for IRQ routing
+[    0.071469] PCI: pci_cache_line_size set to 64 bytes
+[    0.071689] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+[    0.071692] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+[    0.071847] clocksource: Switched to clocksource kvm-clock
+[    0.072652] VFS: Disk quotas dquot_6.6.0
+[    0.072652] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.072652] pnp: PnP ACPI init
+[    0.072652] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.072652] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+[    0.072652] pnp: PnP ACPI: found 2 devices
+[    0.072652] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.072652] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    0.072652] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    0.072652] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    0.072652] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfdffffff window]
+[    0.072652] NET: Registered protocol family 2
+[    0.072652] tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes)
+[    0.072652] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.072652] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+[    0.072652] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.072652] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.072652] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.072652] NET: Registered protocol family 1
+[    0.072652] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[    0.072652] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+[    0.072652] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    0.073303] PCI: CLS 0 bytes, default 64
+[    0.073484] Unpacking initramfs...
+[    0.113295] Freeing initrd memory: 4644K
+[    0.113348] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x29dc05e54fc, max_idle_ns: 440795291716 ns
+[    0.113366] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[    0.113589] Initialise system trusted keyrings
+[    0.113731] workingset: timestamp_bits=46 max_order=18 bucket_order=0
+[    0.115280] Key type asymmetric registered
+[    0.115285] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+[    0.115302] io scheduler noop registered
+[    0.115302] io scheduler deadline registered (default)
+[    0.115302] io scheduler mq-deadline registered (default)
+[    0.115303] io scheduler kyber registered
+[    0.115357] ERST DBG: ERST support is disabled.
+[    0.115413] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.115589] VMware PVSCSI driver - version 1.0.7.0-k
+[    0.115600] ahci 0000:00:0d.0: version 3.0
+[    0.115927] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+[    0.116038] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+[    0.116039] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+[    0.116264] scsi host0: ahci
+[    0.116293] ata1: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806100 irq 21
+[    0.116304] ata_piix 0000:00:01.1: version 2.13
+[    0.116650] scsi host1: ata_piix
+[    0.116690] scsi host2: ata_piix
+[    0.116702] ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+[    0.116702] ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+[    0.116723] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+[    0.117049] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.117052] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    0.117384] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+[    0.117865] rtc_cmos rtc_cmos: registered as rtc0
+[    0.117899] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+[    0.118010] gre: GRE over IPv4 demultiplexor driver
+[    0.118012] Key type dns_resolver registered
+[    0.118039] sched_clock: Marking stable (106415524, 6257960)->(241271788, -128598304)
+[    0.118086] registered taskstats version 1
+[    0.118087] Loading compiled-in X.509 certificates
+[    0.118214] rtc_cmos rtc_cmos: setting system clock to 2019-09-15 14:05:40 UTC (1568556340)
+[    0.448342] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    0.448437] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    0.448438] ata1.00: 16777216 sectors, multi 128: LBA48 NCQ (depth 32)
+[    0.448609] ata1.00: configured for UDMA/133
+[    0.448672] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    0.449155] Freeing unused kernel image memory: 1140K
+[    0.472912] Write protecting the kernel read-only data: 14336k
+[    0.473215] Freeing unused kernel image memory: 2016K
+[    0.473459] Freeing unused kernel image memory: 2028K
+[    0.473486] rodata_test: all tests were successful
+[    0.473488] Run /init as init process
+[    0.479511] sd 0:0:0:0: [sda] 16777216 512-byte logical blocks: (8.59 GB/8.00 GiB)
+[    0.479515] sd 0:0:0:0: [sda] Write Protect is off
+[    0.479516] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    0.479521] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.480736]  sda: sda1 sda2 sda3
+[    0.480905] sd 0:0:0:0: [sda] Attached SCSI disk
+[    0.482807] ACPI: bus type USB registered
+[    0.482818] usbcore: registered new interface driver usbfs
+[    0.482821] usbcore: registered new interface driver hub
+[    0.482827] usbcore: registered new device driver usb
+[    0.483346] usbcore: registered new interface driver usb-storage
+[    0.491337] loop: module loaded
+[    0.499482] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.499919] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.499919] Warning! ehci_hcd should always be loaded before uhci_hcd and ohci_hcd, not after
+[    0.500010] ehci-pci: EHCI PCI platform driver
+[    0.500095] ohci-pci: OHCI PCI platform driver
+[    0.500539] ohci-pci 0000:00:06.0: OHCI PCI host controller
+[    0.500543] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+[    0.500594] ohci-pci 0000:00:06.0: irq 22, io mem 0xf1804000
+[    0.563205] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+[    0.563207] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.563208] usb usb1: Product: OHCI PCI host controller
+[    0.563209] usb usb1: Manufacturer: Linux 4.19.67-0-virt ohci_hcd
+[    0.563209] usb usb1: SerialNumber: 0000:00:06.0
+[    0.563326] hub 1-0:1.0: USB hub found
+[    0.563346] hub 1-0:1.0: 12 ports detected
+[    0.676683] EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: (null)
+[    0.913395] ACPI: AC Adapter [AC] (on-line)
+[    0.915295] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[    0.915322] ACPI: Power Button [PWRF]
+[    0.915418] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input4
+[    0.915422] ACPI: Sleep Button [SLPF]
+[    0.918483] battery: ACPI: Battery Slot [BAT0] (battery present)
+[    0.925984] cryptd: max_cpu_qlen set to 1000
+[    0.933981] AVX2 version of gcm_enc/dec engaged.
+[    0.933982] AES CTR mode by8 optimization enabled
+[    0.993946] usb 1-1: new full-speed USB device number 2 using ohci-pci
+[    1.000497] [drm] DMA map mode: Using physical TTM page addresses.
+[    1.000535] [drm] Capabilities:
+[    1.000535] [drm]   Cursor.
+[    1.000535] [drm]   Cursor bypass 2.
+[    1.000535] [drm]   Alpha cursor.
+[    1.000536] [drm]   3D.
+[    1.000536] [drm]   Extended Fifo.
+[    1.000536] [drm]   Pitchlock.
+[    1.000536] [drm]   Irq mask.
+[    1.000536] [drm]   GMR.
+[    1.000537] [drm]   Traces.
+[    1.000537] [drm]   GMR2.
+[    1.000537] [drm]   Screen Object 2.
+[    1.000538] [drm] Max GMR ids is 8192
+[    1.000538] [drm] Max number of GMR pages is 1048576
+[    1.000538] [drm] Max dedicated hypervisor surface memory is 507904 kiB
+[    1.000539] [drm] Maximum display memory size is 16384 kiB
+[    1.000539] [drm] VRAM at 0xf0000000 size is 16384 kiB
+[    1.000540] [drm] MMIO at 0xf1000000 size is 2048 kiB
+[    1.000540] [drm] global init.
+[    1.001152] [TTM] Zone  kernel: Available graphics memory: 507990 kiB
+[    1.001153] [TTM] Initializing pool allocator
+[    1.001154] [TTM] Initializing DMA pool allocator
+[    1.002745] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[    1.002746] [drm] No driver support for vblank timestamp query.
+[    1.002857] [drm] Screen Objects Display Unit initialized
+[    1.003033] [drm] width 720
+[    1.003045] [drm] height 400
+[    1.003057] [drm] bpp 32
+[    1.003162] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+[    1.003166] [drm] DX: no.
+[    1.003166] [drm] Atomic: yes.
+[    1.003166] [drm] SM4_1: no.
+[    1.003176] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+[    1.003183] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+[    1.004975] fbcon: svgadrmfb (fb0) is primary device
+[    1.008001] Console: switching to colour frame buffer device 100x37
+[    1.024939] [drm] Initialized vmwgfx 2.15.0 20180704 for 0000:00:02.0 on minor 0
+[    1.028825] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[    1.028825] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[    1.439259] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+[    1.439261] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+[    1.439262] usb 1-1: Product: USB Tablet
+[    1.439263] usb 1-1: Manufacturer: VirtualBox
+[    1.450472] hidraw: raw HID events driver (C) Jiri Kosina
+[    1.459452] usbcore: registered new interface driver usbhid
+[    1.459454] usbhid: USB HID core driver
+[    1.473821] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input5
+[    1.473887] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+[    1.482802] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:7f:f6:51
+[    1.482805] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+[    1.488868] mousedev: PS/2 mouse device common for all mice
+[    1.491299] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+[    1.493891] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input6
+[    1.567218] NET: Registered protocol family 17
+[    1.585521] NET: Registered protocol family 10
+[    1.598584] Segment Routing with IPv6
+[    1.650649] EXT4-fs (sda3): re-mounted. Opts: (null)
+[    1.667281] Adding 2030588k swap on /dev/sda2.  Priority:-2 extents:1 across:2030588k 
+[    1.687252] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)

@@ -1,0 +1,106 @@
+     1                                  ; hello_64.asm    print a string using printf
+     2                                  ; Assemble:	  nasm -f elf64 -l hello_64.lst  hello_64.asm
+     3                                  ; Link:		  gcc -m64 -o hello_64  hello_64.o
+     4                                  ; Run:		  ./hello_64 > hello_64.out
+     5                                  ; Output:	  cat hello_64.out
+     6                                  
+     7                                  ; Equivalent C code
+     8                                  ; // hello.c
+     9                                  ; #include <stdio.h>
+    10                                  ; int main()
+    11                                  ; {
+    12                                  ;   char msg[] = "Hello world\n";
+    13                                  ;   printf("%s\n",msg);
+    14                                  ;   return 0;
+    15                                  ; }
+    16                                  	
+    17                                  ; Declare needed C  functions
+    18                                          extern	printf		; the C function, to be called
+    19                                  
+    20                                  	%macro	pabc 1			; a "simple" print macro
+    21                                  	section .data
+    22                                  				.str	db	%1,0		; %1 is first actual in macro call
+    23                                  	section .text
+    24                                  							; push onto stack backwards 
+    25                                  				push    qword [c]	; int c
+    26                                  				push    qword .str 	; users string
+    27                                          push    qword fmt       ; address of format string
+    28                                          call    printf          ; Call C function
+    29                                          add     esp,20          ; pop stack 5*4 bytes
+    30                                  	%endmacro
+    31                                  
+    32                                          section .data		; Data section, initialized variables
+    33 00000000 48656C6C6F20776F72-     msg:	db "Hello world", 0	; C string needs 0
+    33 00000009 6C6400             
+    34 0000000C 25732C20633D257114-     fmt:    db "%s, c=%q", 20, 0          ; The printf format, "\n",'0'
+    34 00000015 00                 
+    35                                  
+    36 00000016 0300000000000000        a:	dq	3		; 64-bit variable a initialized to 3
+    37 0000001E 0400000000000000        	b:	dq	4		; 64-bit variable b initializes to 4
+    38                                  
+    39                                  	section .bss 		; uninitialized space
+    40 00000000 <res 00000008>          	c:	resq	1		; reserve a 64-bit word
+    41                                  
+    42                                          section .text           ; Code section.
+    43                                  
+    44                                          global main		; the standard gcc entry point
+    45                                  main:				; the program label for the entry point
+    46 00000000 55                        push    rbp		; set up stack frame, must be aligned
+    47                                  
+    48 00000001 48BA61AF75E4716100-     	mov     rdx, 06171e475af61h
+    48 0000000A 00                 
+    49 0000000B 48B86DE6ECDE050000-     	mov     rax, 5DEECE66Dh
+    49 00000014 00                 
+    50 00000015 480FAFC2                	imul    rax, rdx
+    51 00000019 488D480B                	lea     rcx, [rax+0Bh]
+    52 0000001D BA01000100              	mov     edx, 10001h
+    53 00000022 4889C8                  	mov     rax, rcx
+    54 00000025 48F7E2                  	mul     rdx
+    55 00000028 4889C8                  	mov     rax, rcx
+    56 0000002B 4829D0                  	sub     rax, rdx
+    57 0000002E 48D1E8                  	shr     rax, 1
+    58 00000031 4801D0                  	add     rax, rdx
+    59 00000034 48C1E82F                	shr     rax, 2Fh
+    60 00000038 4889C2                  	mov     rdx, rax
+    61 0000003B 48C1E230                	shl     rdx, 30h
+    62 0000003F 4829C2                  	sub     rdx, rax
+    63 00000042 4889C8                  	mov     rax, rcx
+    64 00000045 4829D0                  	sub     rax, rdx
+    65                                  	; mov     cs:seed, rax
+    66                                  	; mov     rax, cs:seed
+    67                                  
+    68                                  	; mov	rdi, rax
+    69                                  	; mov     rsi, rax
+    70                                  	; lea     rdi, fmt     ; "%zu: %s - "
+    71                                  	; mov     eax, 0
+    72                                  
+    73                                  	; mov     [c], rax
+    74                                  	; push    qword [c]
+    75                                  	; call    printf
+    76                                  
+    77 00000048 48890425[00000000]      	mov	[c],rax		; store into c
+    78                                  	pabc	"c"
+    78                              <1>  section .data
+    78 00000026 6300                <1>  .str db %1,0
+    78                              <1>  section .text
+    78                              <1> 
+    78 00000050 FF3425[00000000]    <1>  push qword [c]
+    78 00000057 68[26000000]        <1>  push qword .str
+    78 0000005C 68[0C000000]        <1>  push qword fmt
+    78 00000061 E8(00000000)        <1>  call printf
+    78 00000066 83C414              <1>  add esp,20
+    79                                  
+    80                                  	; add     esp, 8
+    81                                  	; mov	rsi, msg
+    82                                  	 ; mov	rax,0		; or can be  xor  rax,rax
+    83                                   ;  call    printf		; Call C function
+    84                                  
+    85                                   ;  mov	rax,[a]	 	; load a
+    86                                  	; add	rax,[b]		; add b
+    87                                  	; mov	[c],rax		; store into c
+    88                                  	; pabc	"c=a+b"		; invoke the print macro
+    89                                  
+    90 00000069 5D                      	pop	rbp		; restore stack
+    91                                  
+    92 0000006A B800000000              	mov	rax,0		; normal, no error, return value
+    93 0000006F C3                      	ret			; return

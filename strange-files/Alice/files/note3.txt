@@ -1,0 +1,1 @@
+openssl ec -in "file3-dir/Aaron Blankenship.pem" -pubout -out AaronBlankenship.pem

@@ -1,0 +1,61 @@
+./hello11 247 248 f7 41 72 0 0 0
+
+./hello11 0 25 0 15 08 0 0 0
+
+./rhello9 0 128 0 f0 0 0 0 0 19000 ../excludes/exclude-ubuntu16.txt & ./rhello9 128 256 0 f0 0 0 0 0 19001 ../excludes/exclude-ubuntu16.txt &
+
+./rhello9 0 128 0 f0 0 0 0 0 19000 ../excludes/exclude-ubuntu.txt & ./rhello9 128 256 0 f0 0 0 0 0 19001 ../excludes/exclude-ubuntu.txt &
+
+./rhello9 0 25 0 d 0 0 0 0 19000 ../excludes/exclude-force.txt & ./rhello9 25 50 19 d 0 0 0 0 19001 ../excludes/exclude-force.txt & ./rhello9 50 75 32 d 0 0 0 0 19002 ../excludes/exclude-force.txt & ./rhello9 75 100 4b d 0 0 0 0 19003 ../excludes/exclude-force.txt & ./rhello9 100 125 64 d 0 0 0 0 19004 ../excludes/exclude-force.txt & ./rhello9 125 150 7d d 0 0 0 0 19005 ../excludes/exclude-force.txt & ./rhello9 150 175 96 d 0 0 0 0 19006 ../excludes/exclude-force.txt  & ./rhello9 175 200 af d 0 0 0 0 19007 ../excludes/exclude-force.txt & ./rhello9 200 225 c8 d 0 0 0 0 19008 ../excludes/exclude-force.txt & ./rhello9 225 256 e1 d 0 0 0 0 19009 ../excludes/exclude-force.txt &
+
+./rhello8 0 25 0 b b6 0 0 0 19000 ../excludes/exclude-force.txt & ./rhello8 25 50 19 b 35 0 0 0 19001 ../excludes/exclude-force.txt & ./rhello8 50 75 32 b a7 0 0 0 19002 ../excludes/exclude-force.txt & ./rhello8 75 100 4b b 59 0 0 0 19003 ../excludes/exclude-force.txt & ./rhello8 100 125 64 b 6f 0 0 0 19004 ../excludes/exclude-force.txt & ./rhello8 125 150 7d b a9 0 0 0 19005 ../excludes/exclude-force.txt & ./rhello8 150 175 96 b 75 0 0 0 19006 ../excludes/exclude-force.txt  & ./rhello8 175 200 af b 9d 0 0 0 19007 ../excludes/exclude-force.txt & ./rhello8 200 225 c8 b 7f 0 0 0 19008 ../excludes/exclude-force.txt & ./rhello8 225 256 e1 b 8e 0 0 0 19009 ../excludes/exclude-force.txt &
+
+./rhello6 0 25 0 6 34 0 0 0 & ./rhello6 25 50 19 5 ee 0 0 0 & ./rhello6 50 75 32 6 2f 0 0 0 & ./rhello6 75 100 4b 6 13 0 0 0 & ./rhello6 100 125 64 5 f7 0 0 0 & ./rhello6 125 150 7d 6 30 0 0 0 & ./rhello6 150 175 96 6 2e 0 0 0 & ./rhello6 175 200 af 6 27 0 0 0 & ./rhello6 200 225 c8 6 05 0 0 0 & ./rhello6 225 256 e1 6 15 0 0 0 &
+
+./hello11 0 25 0 6 12 0 0 0
+./hello11 25 50 19 5 cd 0 0 0
+./hello11 50 75 32 6 0e 0 0 0
+./hello11 75 100 4b 5 f1 0 0 0
+./hello11 100 125 64 5 d5 0 0 0
+./hello11 125 150 7d 6 0d 0 0 0
+./hello11 150 175 96 6 0b 0 0 0
+./hello11 175 200 af 6 05 0 0 0
+./hello11 200 225 c8 5 e3 0 0 0
+./hello11 225 256 e1 5 f2 0 0 0
+
+./hello9 0 25 0 1 a1 0 0 0
+./hello9 25 50 19 1 63 0 0 0
+./hello9 50 75 32 1 7a 0 0 0
+./hello9 75 100 4b 1 60 0 0 0
+./hello9 100 125 64 1 6b 0 0 0
+./hello9 125 150 7d 1 7a 0 0 0
+./hello9 150 175 96 1 79 0 0 0
+./hello9 175 200 af 1 74 0 0 0
+./hello9 200 225 c8 1 73 0 0 0
+./hello9 225 256 e1 1 5e 0 0 0
+
+./rhello4 0 25 0 1 9b 0 0 0 & ./rhello4 25 50 19 1 5d 0 0 0 & ./rhello4 50 75 32 1 73 0 0 0 & ./rhello4 75 100 4b 1 59 0 0 0 & ./rhello4 100 125 64 1 65 0 0 0 & ./rhello4 125 150 7d 1 74 0 0 0 & ./rhello4 150 175 96 1 73 0 0 0 & ./rhello4 175 200 af 1 6e 0 0 0 & ./rhello4 200 225 c8 1 6d 0 0 0 & ./rhello4 225 256 e1 1 58 0 0 0 &
+
+./rhello2 0 25 0 1 a 0 0 0 & ./rhello2 25 50 19 1 3d 0 0 0 & ./rhello2 50 75 32 1 53 0 0 0 & ./rhello2 75 100 4b 1 39 0 0 0 & ./rhello2 100 125 64 1 45 0 0 0 & ./rhello2 125 150 7d 1 54 0 0 0 & ./rhello2 150 175 96 1 53 0 0 0 & ./rhello2 175 200 af 1 4e 0 0 0 & ./rhello2 200 225 c8 1 4d 0 0 0 & ./rhello2 225 256 e1 1 38 0 0 0 &
+
+./hello8 0 25 0 1 4f 0 0 0
+./hello8 25 50 19 1 12 0 0 0
+./hello8 50 75 32 1 29 0 0 0
+./hello8 75 100 4b 1 12 0 0 0
+./hello8 100 125 64 1 1c 0 0 0
+./hello8 125 150 7d 1 2e 0 0 0
+./hello8 150 175 96 1 2b 0 0 0
+./hello8 175 200 af 1 29 0 0 0
+./hello8 200 225 c8 1 26 0 0 0
+./hello8 225 256 e1 1 15 0 0 0
+
+./hello 0 25 0 1 48 0 0 0
+./hello 25 50 19 1 09 0 0 0
+./hello 50 75 32 1 21 0 0 0
+./hello 75 100 4b 1 09 0 0 0
+./hello 100 125 64 1 12 0 0 0
+./hello 125 150 7d 1 24 0 0 0
+./hello 150 175 96 1 20 0 0 0
+./hello 175 200 af 1 1e 0 0 0
+./hello 200 225 c8 1 1a 0 0 0
+./hello 225 256 e1 1 08 0 0 0

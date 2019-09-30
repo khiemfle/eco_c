@@ -1,0 +1,7 @@
+Using Firefox!!
+- Gecko driver!!
+    PATH=$PATH:~/eco_c/bigmem-noti/gecko
+    https://github.com/mozilla/geckodriver/releases
+- Firefox program 
+    https://ftp.mozilla.org/pub/firefox/releases/65.0b9/linux-x86_64/en-US/
+What should be chromium version?

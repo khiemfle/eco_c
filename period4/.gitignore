@@ -1,0 +1,11 @@
+dict.json
+*.img
+machine*
+4536.txt
+4536-1.txt
+Journal
+SecLists-master*
+ttm4536-pattern.txt
+vmdk*.txt
+vdi*.txt
+vbox*.txt

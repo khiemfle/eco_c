@@ -1,0 +1,20 @@
+./proxy.py 127.0.0.1 1001 speedtest.tele2.net 21 True
+ftp -p 127.0.0.1 10001
+
+ftp ftp.csx.cam.ac.uk 21
+
+./proxy.py 127.0.0.1 22222 ftp.csx.cam.ac.uk 21 True
+
+echo -ne "GET / HTTP/1.1\r\nHost: www.google.com\r\n\r\n" | ./bhnet.py -t www.google.com -p 80
+
+echo -e "GET / HTTP/1.1\r\nHost: www.google.com\r\n\r\n" | ./bhnet.py -t www.google.com -p 80
+
+printf "GET / HTTP/1.1\r\nHost: www.google.com\n\r\n" | ./bhnet.py -t www.google.com -p 80
+
+printf "GET / HTTP/1.1\r\nHost: www.google.com\n\r\n" | nc -i 2 www.google.com 80
+
+echo -ne "GET / HTTP/1.1\r\nHost: www.google.com\r\n\r\n" | nc -i 2 www.google.com 80
+
+echo -e "GET / HTTP/1.1\r\nHost: www.ntnu.no\r\n\r\n" | ./bhnet.py -t www.ntnu.no -p 80
+
+guest

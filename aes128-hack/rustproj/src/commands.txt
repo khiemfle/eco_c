@@ -1,0 +1,32 @@
+./rustproj3 0 25 0 15 23
+./rustproj3 25 50 19 14 96
+./rustproj3 50 75 32 15 09
+./rustproj3 75 100 4b 14 bb
+./rustproj3 100 125 64 14 d1
+./rustproj3 125 150 7d 15 0e
+./rustproj3 150 175 96 14 d6
+./rustproj3 175 200 af 14 fd
+./rustproj3 200 225 c8 14 e1
+./rustproj3 225 256 e1 14 f1
+
+./rustproj2 0 25 0 15 08
+./rustproj2 25 50 19 14 70
+./rustproj2 50 75 32 14 dd
+./rustproj2 75 100 4b 14 8e
+./rustproj2 100 125 64 14 a6
+./rustproj2 125 150 7d 14 e3
+./rustproj2 150 175 96 14 aa
+./rustproj2 175 200 af 14 d0
+./rustproj2 200 225 c8 14 b5
+./rustproj2 225 256 e1 14 c4
+
+./rustproj1 0 25 0 10 40
+./rustproj1 25 50 19 5 cd
+./rustproj1 50 75 32 6 0e
+./rustproj1 75 100 4b 5 f1
+./rustproj1 100 125 64 5 d5
+./rustproj1 125 150 7d 6 0d
+./rustproj1 150 175 96 6 0b
+./rustproj1 175 200 af 6 05
+./rustproj1 200 225 c8 5 e3
+./rustproj1 225 256 e1 5 f2

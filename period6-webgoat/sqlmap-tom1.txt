@@ -1,0 +1,15 @@
+PUT /WebGoat/challenge/6 HTTP/1.1
+Host: http://129.241.200.165:8080
+Content-Length: 84
+Accept: */*
+Origin: http://129.241.200.165:8080
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://129.241.200.165:8080/WebGoat/start.mvc
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+Cookie: JSESSIONID=2gt0c4RK6BnwSOn4K19HCwwF66y4pEKpTzh713vc
+Connection: close
+
+username_reg=tom*&email_reg=Tom%40Tom.com&password_reg=tom&confirm_password_reg=tom1

@@ -1,6 +1,9 @@
 How to know which type of a file!?
 
 How to get more information about a Webserver!?
+    Nikto!!
+        https://www.youtube.com/watch?v=GH9qn_DBzCk
+    Openvas!!
     Any pentesting tool to a webserver!?
         metasploit!!
             https://www.youtube.com/watch?v=7K7kcLJ2sBI

@@ -3,6 +3,7 @@ ttm4536{5807626676}
 MCA{5807626676}
 ttm4536{9TUNBezU4MDc2MjY2NzZ}
 ttm4536{jY2NzZ9TUNBezU4MDc2M}
+    Flag!!
 
 Using ctftools of all encode/decode tools!!
 
@@ -24,6 +25,7 @@ Token3 = Token2[13:] + Token2[:13]
 
 Token2 = Token[13:] + Token[:13]
     jY2NzZ9TUNBezU4MDc2M
+
 Token1 = Token[(len(Token)-13):] + Token[:(len(Token)-13)]
     4MDc2MjY2NzZ9TUNBezU
 

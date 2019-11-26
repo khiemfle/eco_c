@@ -1,8 +1,56 @@
+Focused questions!!
+    Burp Suite Extension!?
+        Java code!?
+    Trojan with Git!!
+        How to do the Git Import!?
+    Site-mapping!!
+        Joomla_killer.py!?
+    SQL Injections!!
+        Types!!
+        Defenses!
+            Using different characters!?
+            From MySQL feature!?
+        sqlmap!?
+            Steps!?
+                URL!!
+                    login URL!
+    XSS!!
+        A malicious script!?
+            In a compromised website!!?
+        A malicious website!?
+            Exploit session of a current opened website!?
+        Cookie!!?
+        Permanent approach!?
+            VS temporary approach!?
+    Keylogger!!
+        Key enter events!?
+        Detection!?
+        keylogger.py!?
+        Different between open sources!?
+    Python features!!
+        Crypto
+            Hashing!?
+            Crypto.utils!!
+        Speed up!!
+            Nikta!?
+                Nuitka!!
+                    !?
+            Multiprocessing vs threading!?
+        pwntools!!
+            ?
+        Python network!!
+            Usage of TCP proxy!?
+            Paramika vs subprocess!?
+            Socket
+                Kernel!?
+    Scapy!
+        Scapy flow vs Wireshark!?
+
 CTF!!
     CTF Quiz!
         Period 1
             fcrackzip!!
-            pwntool!?
+            pwntools!?
             
         Period 4
             namedtuple!?
@@ -10,6 +58,9 @@ CTF!!
                 IPPROTO_ICMP
             PIL!?
             john!!
+                zip file!?
+                    ZIP type!?
+                Binary file!?
     CTFs!
         Period 1
             Buffer overflow!!
@@ -18,18 +69,22 @@ CTF!!
 
         Period 2
             AES brute force!!
-                Using the same q!?
 
         Period 3
             Finding embedded files!
                 In a docx file
 
             Cracking RSA encryption!?
+                Crypto.Util.number.inverse!!
+                Using the same q!?
+                https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
         Period 4
             Zip cracking!
                 fcrackzip!!?
+                    One thread!!
                 John the ripper!!?
+                    How to use!?
 
                 PDF cracking!
                     crunch!!?
@@ -55,8 +110,14 @@ Slides!!
 
     L02!!
         Python!!
+            Command lines in Python!?
+            Speed up python computations!!
+                Nuitka!!
+                multiprocessing!
         Python Crypto tools!!
+            Crypto!
         Python hacking tools!!
+            pwntools!!
     
     L03!
         Python AES and RSA!?
@@ -109,7 +170,7 @@ Slides!!
     
     L08!
         WebGoat!!
-            WebWof!!
+            WebWolf!!
     
     L09!
         Keylogger!!
@@ -185,4 +246,5 @@ Book!
         Trojan Configuration
         Building a GitHub-Aware Trojan
         Hacking Python’s import Functionality
+            How to do this!?
             Kicking the Tires
